@@ -23,7 +23,7 @@ from keras.regularizers import l2
 
 from sklearn.model_selection import KFold
 
-cogscores4 = np.load("/Users/danieldemarchi/Desktop/Kos project/onehotnoimpute.npy", allow_pickle = True)
+cogscores4 = np.load("onehotmissimpute.npy", allow_pickle = True)
 
 np.set_printoptions(suppress=True)
 
